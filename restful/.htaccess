@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^class$   index.php?class=all [nc,qsa]
+RewriteRule ^class/(\d+)$   index.php?class=$1 [nc,qsa]
