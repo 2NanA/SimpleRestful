@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^user$   index.php [nc,qsa]
+RewriteRule ^user/(\d+)$   index.php?user=$1 [nc,qsa]
+RewriteRule ^user/   index.php?user= [nc,qsa]
