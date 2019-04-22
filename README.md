@@ -1,4 +1,4 @@
-# PhpBoot
+# Php Simple Restful API
 
 
 **[SimpleRestful](https://github.com/2NanA/SimpleRestful)** Quick understanding of restful style APIs for beginner PHP programmers。
@@ -56,7 +56,7 @@
     <img src="image/delete.png" width="80%">
     </div>
 
-- or you can send request by php curl ** refer to test/curl_test.php
+- or you can send request by php curl ** refer to [curl_test.php](test/curl_test.php). The example urls refer to [index.php](index.php)
 
 ## Help
    * Email 494243364@qq.com
